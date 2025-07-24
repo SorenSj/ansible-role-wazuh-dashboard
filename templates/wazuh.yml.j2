@@ -21,7 +21,7 @@
 # ------------------------------- Index patterns -------------------------------
 #
 # Default index pattern to use.
-#pattern: wazuh-alerts-4.x-*
+pattern: wazuh-alerts-4.x-*
 #
 # ----------------------------------- Checks -----------------------------------
 #
@@ -86,7 +86,7 @@
 # If worker is given as value, the app will show the Agents status
 # visualization but won't insert data on wazuh-monitoring indices.
 # Default: true
-#wazuh.monitoring.enabled: true
+wazuh.monitoring.enabled: true
 #
 # Custom setting to set the frequency for wazuh-monitoring indices cron task.
 # Default: 900 (s)
@@ -102,7 +102,7 @@
 #wazuh.monitoring.creation: d
 #
 # Default index pattern to use for Wazuh monitoring
-#wazuh.monitoring.pattern: wazuh-monitoring-4.x-*
+wazuh.monitoring.pattern: wazuh-monitoring-4.x-*
 #
 #
 # ------------------------------- App privileges --------------------------------
