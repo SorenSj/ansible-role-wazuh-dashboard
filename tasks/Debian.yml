@@ -39,6 +39,7 @@
       name: "wazuh-dashboard={{ dashboard_version }}-*"
       state: present
       update_cache: true
+      cache_valid_time: 0
     register: install
     become: true
 
